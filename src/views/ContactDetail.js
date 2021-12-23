@@ -73,6 +73,7 @@ const ContactDetail = (props) => {
             onDeletePress();
         } else {
             console.log("no");
+            //
         }
     };
 
