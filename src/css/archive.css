@@ -1,0 +1,5 @@
+.center-archive-col {
+    flex: 1;
+    overflow-y: scroll;
+    max-height: 580px;
+  }

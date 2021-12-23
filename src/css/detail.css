@@ -1,0 +1,35 @@
+.archive-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:8px;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+  .back-button {
+    background-color: #3496ff;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:8px;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+  .fontsmall{
+      font-size: 10px;
+      color:grey
+  }
+  
