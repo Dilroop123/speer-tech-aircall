@@ -25,7 +25,10 @@ const ActivityFeed = (props) => {
             })
                 .then(function (response) {
 
-                    setContactList(response?.data);
+
+                    setContactList(response?.data?.filter(function (contact) {
+                        return contact?.is_archived === false;
+                    }));
                 })
                 .catch(function (thrown) {
                     if (axios.isCancel(thrown)) {
